@@ -67,6 +67,12 @@ Ko god zeli, moze uci I pogledati trenutno stanje na tabeli,raspored utakmica, b
 
 •	Mogucnost pregleda svih podataka lige od strane korisnika
 
+• Mogucnost koristenja servisa Google ads
+
+• Mogucnost koristenja eksternog uredjaja LPC1114FN28
+
+• Mogucnost koristenja servisa koji bi kupio podatke o rezultatima utakmica
+
 
 #Akteri 
 **1.	Administrator**- unosi podatke o ligi,timovima, igracima,delegatima I trenerima, dodjeljuje delegate za utakmicu, odredjuje                            datume odigravanja utakmica te ih po potrebi mijenja 
