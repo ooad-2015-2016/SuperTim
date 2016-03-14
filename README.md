@@ -48,6 +48,9 @@ Svaki trener treba prije utakmice prijaviti sastav tima za tu utakmicu.On prijav
 **9.	Pregled lige**
 Ko god zeli(korisnici,ljubitelji fudbala,navijaci..) moze uci i pogledati trenutno stanje na tabeli,raspored utakmica, broj golova timova, te podatke o kartonima kao i statistiku o igracima i postignutim golovima.Svi podaci se automatski registruju,sto je jako korisno za sve korisnike ukoliko nisu stigli pogledati neku utakmicu. Na ovaj nacin ce biti omoguceno da budu u toku sa svim novostima vezanim za ligu. Medjutim oni ne mogu mijenjati podatke.
 
+**10. Mogucnost koristenja servisa Google ads**
+Servis omogucava korisniku da koristenjem usluga Google ads, ima priliku da se pretplati na aplikaciju putem  mobilnog uređaja. Jedna od funkcionalosti koristenja servisa je da ukoliko npr. korisnik stavi neki tim kao omiljeni, odmah dobija notifikacije o svim novostima vezanim za taj tim. 
+
 
 #Funkcionalnosti
 
