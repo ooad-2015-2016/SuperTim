@@ -20,33 +20,33 @@ Aplikacija je zamisljena da bi olaksala administraciju fudbalskih ligaskih takmi
 #Procesi
 
 **1.	Unos podataka o ligi**
-Administrator lige prije samog pocetka lige unese sve bitne podatke o ligi te pravila po kojim se ona odvija.
+Administrator lige prije samog pocetka lige unese sve bitne podatke o ligi te pravila po kojim se ona odvija.Ta pravila podrazumijevaju da,svaki klub koji ucestvuje u takmicenju Lige mora da ispuni sve kriterijume i uslove iz Pravilnika za ucesce u Ligi tj. svaki klub igra sa ostalim klubovima po dvije utakmice, jednu kao domacin a drugu kao gost. Nakon zavrsenih kvalifikacija pobjednici ulaze u cetvrtfinale,polufinale i na kraju se dva najbolja tima susrecu u finalu,u kojem se igra samo jedna utakmica.
 
 
 **2.	Evidentiranje timova I trenera**
-Evidentiraju se svi bitni podaci o timovima koji igraju u toj ligi.  Takodjer se dodjeljuje mogucnost trenerima timova da prijavljuju sastave timova za utakmice.
+Evidentiraju se svi bitni podaci o timovima koji igraju u toj ligi.Ti podaci treba da sadrze sve podatke koji se ticu jednog kluba kao sto su ime trenera, spisak igraca,naziv kluba koji predstavljaju itd. Trenerima timova se dodjeljuje mogucnost da prijavljuju sastave timova za utakmice.
 
 
 **3.	Generisanje raspored utakmica**
-Sistem automatski generise raspored utakmica koje ce se igrati za citavu godinu, a administrator mora naknadno unijeti datum odigravanja zbog nepredvidivih situacija (npr. Elementarne nepogode)
+Sistem automatski generise raspored utakmica koje ce se igrati za citavu godinu.Dakle za svako kolo se unaprijed zna datum odigravanja svih predstojecih utakmica.Ukoliko se desi neka nepredvidiva situacija (Elementarna nepogoda i sl.), administrator mora naknadno unijeti datum odigravanja.
 
 **4.	Evidentiranje igraca**
-Evidentiraju se svi bitni podaci o igracima (ime, prezime, godiste, tim, itd.)
+Evidentiraju se svi bitni podaci o igracima.Podaci treba da sadrze: ime, prezime, godiste, tim itd. 
 
 **5.	Evidentiranje delegata**
-Evidentiranje svih licenciranih delegate u ligi, I dodjeljivanje mogucnosti unosa podataka o utakmici u sistem.
+Evidentiranje svih licenciranih delegata u ligi, I dodjeljivanje mogucnosti unosa podataka o utakmici u sistem.
 
 **6.	Administrator lige za svaku utakmicu dodjeljuje delegata**
-Delegat ima poseban  pristup aplikaciji te moze unositi konacne rezultate utakmica, strijelce golova te kartone za tu utakmicu.
+Delegat ima poseban  pristup aplikaciji te nakon svake utakmice moze unositi konacne rezultate utakmica, strijelce golova te kartone za tu utakmicu.On je odgovoran da odmah registruje sve nove statuse igraca, ukoliko se desi npr. da nakon odigrane utakmice neki igrac izgubi pravo,zbog određenih pravila, da igra sljedecu. Na taj nacin se sprjecava bilo kakva nepravilnost, sto i jeste cilj ovog sistema.
 
 **7.	Prijavljivanje sastava tima za utakmicu**
-Svaki trener treba prije utakmice prijaviti sastav tima za tu utakmicu. To je dobro jer ce sprijeciti prijavu igraca koji ne mogu igrati utakmicu po pravilima lige (npr. 3 zuta kartona).
+Svaki trener treba prije utakmice prijaviti sastav tima za tu utakmicu.On prijavljuje 11 igraca koji ce igrati u prvoj postavi, kao i one koji ce biti na klupi(tj. zamjenu). To je dobro jer ce sprijeciti prijavu igraca koji ne mogu igrati utakmicu po pravilima lige (npr. 3 zuta kartona).
 
 **8.	Unos podataka o utakmici**
- Nakon utakmice delegat mora po oficijelnom zapisniku unijeti sve bitne podatke o utakmici (rezultat,golovi,kartoni) u sistem.
+ Nakon utakmice delegat mora po oficijelnom zapisniku unijeti sve bitne podatke o utakmici (rezultat,golovi,kartoni) u sistem. Za podjedu tim dobiva tri boda,jedan bod se dobiva za nerijesen ishod a za poraz nijedan bod.Sve bodove delegat odmah unosi u tabelu.
 
 **9.	Pregled lige**
-Ko god zeli, moze uci I pogledati trenutno stanje na tabeli,raspored utakmica, broj golova timova, te podatke o kartonima I golovima svih igraca. Medjutim ne moze mijenjati podatke.
+Ko god zeli(korisnici,ljubitelji fudbala,navijaci..) moze uci i pogledati trenutno stanje na tabeli,raspored utakmica, broj golova timova, te podatke o kartonima kao i statistiku o igracima i postignutim golovima.Svi podaci se automatski registruju,sto je jako korisno za sve korisnike ukoliko nisu stigli pogledati neku utakmicu. Na ovaj nacin ce biti omoguceno da budu u toku sa svim novostima vezanim za ligu. Medjutim oni ne mogu mijenjati podatke.
 
 
 #Funkcionalnosti
