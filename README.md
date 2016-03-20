@@ -43,7 +43,7 @@ Delegat ima poseban  pristup aplikaciji te nakon svake utakmice moze unositi kon
 Svaki trener treba prije utakmice prijaviti sastav tima za tu utakmicu.On prijavljuje 11 igraca koji ce igrati u prvoj postavi, kao i one koji ce biti na klupi(tj. zamjenu). To je dobro jer ce sprijeciti prijavu igraca koji ne mogu igrati utakmicu po pravilima lige (npr. 3 zuta kartona).
 
 **8.	Unos podataka o utakmici**
- Nakon utakmice delegat mora po oficijelnom zapisniku unijeti sve bitne podatke o utakmici (rezultat,golovi,kartoni) u sistem. Za podjedu tim dobiva tri boda,jedan bod se dobiva za nerijesen ishod a za poraz nijedan bod.Sve bodove delegat odmah unosi u tabelu.
+ Nakon utakmice delegat mora po oficijelnom zapisniku unijeti sve bitne podatke o utakmici (rezultat,golovi,kartoni) u sistem.Sve bodove delegat odmah unosi u tabelu.
 
 **9.	Pregled lige**
 Ko god zeli(korisnici,ljubitelji fudbala,navijaci..) moze uci i pogledati trenutno stanje na tabeli,raspored utakmica, broj golova timova, te podatke o kartonima kao i statistiku o igracima i postignutim golovima.Svi podaci se automatski registruju,sto je jako korisno za sve korisnike ukoliko nisu stigli pogledati neku utakmicu. Na ovaj nacin ce biti omoguceno da budu u toku sa svim novostima vezanim za ligu. Medjutim oni ne mogu mijenjati podatke.
