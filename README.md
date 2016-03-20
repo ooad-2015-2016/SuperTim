@@ -20,7 +20,7 @@ Aplikacija je zamisljena da bi olaksala administraciju fudbalskih ligaskih takmi
 #Procesi
 
 **1.	Unos podataka o ligi**
-Administrator lige prije samog pocetka lige unese sve bitne podatke o ligi te pravila po kojim se ona odvija.Ta pravila podrazumijevaju da,svaki klub koji ucestvuje u takmicenju Lige mora da ispuni sve kriterijume i uslove iz Pravilnika za ucesce u Ligi tj. svaki klub igra sa ostalim klubovima po dvije utakmice, jednu kao domacin a drugu kao gost. Nakon zavrsenih kvalifikacija pobjednici ulaze u cetvrtfinale,polufinale i na kraju se dva najbolja tima susrecu u finalu,u kojem se igra samo jedna utakmica.
+Administrator lige prije samog pocetka lige unese sve bitne podatke o ligi te pravila po kojim se ona odvija.Ta pravila podrazumijevaju da,svaki klub koji ucestvuje u takmicenju Lige mora da ispuni sve kriterijume i uslove iz Pravilnika za ucesce u Ligi.
 
 
 **2.	Evidentiranje timova I trenera**
