@@ -98,14 +98,21 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\20160424195230_InitialMigration.cs" />
-    <Compile Include="Migrations\20160424195230_InitialMigration.designer.cs">
-      <DependentUpon>20160424195230_InitialMigration.cs</DependentUpon>
+    <Compile Include="IgracBaza\Models\DefaultPodaci.cs" />
+    <Compile Include="IgracBaza\Models\Igrac.cs" />
+    <Compile Include="IgracBaza\Models\IgracDbContext.cs" />
+    <Compile Include="Migrations\20160424140552_InitialMigration.cs" />
+    <Compile Include="Migrations\20160424140552_InitialMigration.designer.cs">
+      <DependentUpon>20160424140552_InitialMigration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\20160424205809_InitialMigration.cs" />
+    <Compile Include="Migrations\20160424205809_InitialMigration.designer.cs">
+      <DependentUpon>20160424205809_InitialMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\IgracDbContextModelSnapshot.cs" />
     <Compile Include="Migrations\TrenerDbContextModelSnapshot.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TrenerBaza\Models\DefaultPodaci.cs" />
-    <Compile Include="TrenerBaza\Models\Delegat.cs" />
     <Compile Include="TrenerBaza\Models\Trener.cs" />
     <Compile Include="TrenerBaza\Models\TrenerDbContext.cs" />
     <Compile Include="TrenerBaza\Views\PictureConverter.cs" />
@@ -134,6 +141,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="IgracBaza\Views\IgraciListView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="TrenerBaza\Views\TreneriListView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

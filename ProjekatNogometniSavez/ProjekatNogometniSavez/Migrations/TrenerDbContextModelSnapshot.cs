@@ -14,24 +14,6 @@ namespace ProjekatNogometniSavezMigrations
             builder
                 .Annotation("ProductVersion", "7.0.0-beta6-13815");
 
-            builder.Entity("ProjekatNogometniSavez.TrenerBaza.Models.Delegat", b =>
-                {
-                    b.Property<int>("DelegatId")
-                        .ValueGeneratedOnAdd();
-
-                    b.Property<int>("Datum");
-
-                    b.Property<string>("Ime");
-
-                    b.Property<string>("Prezime");
-
-                    b.Property<byte[]>("Slika");
-
-                    b.Property<string>("fourSqaureId");
-
-                    b.Key("DelegatId");
-                });
-
             builder.Entity("ProjekatNogometniSavez.TrenerBaza.Models.Trener", b =>
                 {
                     b.Property<int>("TrenerId")
