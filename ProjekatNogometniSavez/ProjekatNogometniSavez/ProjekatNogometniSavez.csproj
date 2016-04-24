@@ -98,13 +98,14 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\20160424140552_InitialMigration.cs" />
-    <Compile Include="Migrations\20160424140552_InitialMigration.designer.cs">
-      <DependentUpon>20160424140552_InitialMigration.cs</DependentUpon>
+    <Compile Include="Migrations\20160424195230_InitialMigration.cs" />
+    <Compile Include="Migrations\20160424195230_InitialMigration.designer.cs">
+      <DependentUpon>20160424195230_InitialMigration.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\TrenerDbContextModelSnapshot.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TrenerBaza\Models\DefaultPodaci.cs" />
+    <Compile Include="TrenerBaza\Models\Delegat.cs" />
     <Compile Include="TrenerBaza\Models\Trener.cs" />
     <Compile Include="TrenerBaza\Models\TrenerDbContext.cs" />
     <Compile Include="TrenerBaza\Views\PictureConverter.cs" />

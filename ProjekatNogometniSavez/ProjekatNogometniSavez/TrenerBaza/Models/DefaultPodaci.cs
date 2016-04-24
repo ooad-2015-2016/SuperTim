@@ -18,7 +18,7 @@ namespace ProjekatNogometniSavez.TrenerBaza.Models
                     Ime = "Mehmed",
                     Prezime = "Baždarevic",
                     Datum = 28091960,
-                    Slika = Convert.FromBase64String(@"mehmed-bazdarevic-bih_fx0odqm1xuoa1jr7t0udelcmw")
+                   // Slika = Convert.FromBase64String(@"mehmed-bazdarevic-bih_fx0odqm1xuoa1jr7t0udelcmw")
 
                 }
                 );

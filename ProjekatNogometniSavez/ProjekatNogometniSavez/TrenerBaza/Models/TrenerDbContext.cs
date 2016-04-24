@@ -14,11 +14,12 @@ namespace ProjekatNogometniSavez.TrenerBaza.Models
     {
         
         public DbSet<Trener> Treneri { get; set; }
+        public DbSet<Delegat> Delegati { get; set; }
 
-       
- protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            string databaseFilePath = "ProjekatNogometniSavez.db";
+            string databaseFilePath = "NogometniSavezbaza.db";
             try
             {
                 //za tačnu putanju gdje se nalazi baza uraditi ovdje debug i procitati Path
