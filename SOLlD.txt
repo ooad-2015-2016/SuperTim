@@ -1,4 +1,9 @@
-Liskov princip zamjene-PODTIPOVI MORAJU BITI ZAMJENJIVI NJIHOVIM OSNOVNIM TIPOVIMA.
-  Ovaj princip je zadovoljen, jer nemamo klase koje nasljeduju druge klase,tako da pravilo da podtipovi moraju biti zamjenjivi osnovnim tipovima ne moze biti prekrseno.
+
+2.Otvoreno zatvoreni princip- ENTITETI SOFTVERA (KLASE, MODULI, FUNKCIJE) TREBALI BI BITI OTVORENI ZA
+NADOGRADNJU, ALI ZATVORENI ZA MODIFIKACIJE
+Princip je ispostovan.Promjene u implementacijama klasa ne uticu na modifikaciju neke druge klase.
+
+3.Liskov princip zamjene-PODTIPOVI MORAJU BITI ZAMJENJIVI NJIHOVIM OSNOVNIM TIPOVIMA.
+Ovaj princip je zadovoljen, jer nemamo klase koje nasljeduju druge klase,tako da pravilo da podtipovi moraju biti zamjenjivi osnovnim tipovima ne moze biti prekrseno.
   
   
