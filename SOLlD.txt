@@ -5,5 +5,10 @@ Princip je ispostovan.Promjene u implementacijama klasa ne uticu na modifikaciju
 
 3.Liskov princip zamjene-PODTIPOVI MORAJU BITI ZAMJENJIVI NJIHOVIM OSNOVNIM TIPOVIMA.
 Ovaj princip je zadovoljen, jer nemamo klase koje nasljeduju druge klase,tako da pravilo da podtipovi moraju biti zamjenjivi osnovnim tipovima ne moze biti prekrseno.
+
+4.Princip inverzije ovisnosti- MODULI NE BI TREBALI OVISITI OD DETALJA. DETALJI BI TREBALI BITI OVISNI OD
+APSTRAKCIJA
+Ovaj princip je veoma lako provjeriti ukoliko pratimo svaku strelicu na UML dijagramu i provjerimo 
+da li je cilj strelice interfejs ili neka apstraktna klasa.U nasem slucaju nije prekrsen princip.
   
   
