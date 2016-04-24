@@ -1,1 +1,4 @@
-
+Liskov princip zamjene-PODTIPOVI MORAJU BITI ZAMJENJIVI NJIHOVIM OSNOVNIM TIPOVIMA.
+  Ovaj princip je zadovoljen, jer nemamo klase koje nasljeduju druge klase,tako da pravilo da podtipovi moraju biti zamjenjivi osnovnim tipovima ne moze biti prekrseno.
+  
+  
