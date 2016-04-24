@@ -1,3 +1,5 @@
+1.Princip pojedinacne odgovornosti- KLASA BI TREBALA IMATI SAMO JEDAN RAZLOG ZA PROMJENU
+Ovaj princip nije ispostovan jer se u pojedinim klasama ne nalaze samo oni atributi i metode koji su strogo vezani za nju.
 
 2.Otvoreno zatvoreni princip- ENTITETI SOFTVERA (KLASE, MODULI, FUNKCIJE) TREBALI BI BITI OTVORENI ZA
 NADOGRADNJU, ALI ZATVORENI ZA MODIFIKACIJE
