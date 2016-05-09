@@ -28,7 +28,7 @@ namespace ProjekatNogometniSavez.Baza.Models
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            string databaseFilePath = "NogometniSavez.db";
+            string databaseFilePath = "NogometniSavezBaza.db";
             try
             {
                 //za tačnu putanju gdje se nalazi baza uraditi ovdje debug i procitati Path

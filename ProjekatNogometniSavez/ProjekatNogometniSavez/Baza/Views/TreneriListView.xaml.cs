@@ -108,9 +108,9 @@ namespace ProjekatNogometniSavez.Baza.Views
                     NazivTima = NazivInput_Tim.Text,
                     TrenerTima = TrenerInput_tim.Text,
 
-                    DatumOsnivanja = Convert.ToInt32(DatumInput_tim.Text),
+                   DatumOsnivanja = Convert.ToInt32(DatumInput_tim.Text),
 
-                    Slika = uploadSlika_tim
+                  Slika = uploadSlika_tim
                 };
                 db.Timovi.Add(contact);
 

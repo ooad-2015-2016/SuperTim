@@ -446,7 +446,6 @@ C:\Users\ADNAN\Downloads\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\D
 C:\Users\ADNAN\Downloads\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\qualifiers.txt.intermediate
 C:\Users\ADNAN\Downloads\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\ADNAN\Downloads\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\ProjectArchitectures.txt
-C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\ProjekatNogometniSavez.csprojResolveAssemblyReference.cache
 C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\App.g.i.cs
 C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\App.g.cs
 C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\Baza\Views\TreneriListView.g.i.cs

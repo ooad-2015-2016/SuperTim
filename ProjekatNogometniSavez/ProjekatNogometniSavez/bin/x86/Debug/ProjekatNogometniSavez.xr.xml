@@ -8,6 +8,8 @@
     <RootPropertyPathName Name="Datum" />
     <RootPropertyPathName Name="Prezime" />
     <RootPropertyPathName Name="Ime" />
+    <RootPropertyPathName Name="Trener" />
+    <RootPropertyPathName Name="Naziv" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application">
