@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ProjekatNogometniSavez.Baza.Models
 {
-    class Trener
+   public class Trener
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int TrenerId { get; set; }//primary key u bazi

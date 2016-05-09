@@ -7,9 +7,11 @@ using System.Threading.Tasks;
 
 namespace ProjekatNogometniSavez.Baza.Models
 {
-    class Liga
+   public class Liga
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int LigaId { get; set; }
+        public string fourSqaureId { get; set; }
         public String NazivLige { get; set; }
         public List<Delegat> Delegati { get; set; }
         public List<Tim> Timovi { get; set; }

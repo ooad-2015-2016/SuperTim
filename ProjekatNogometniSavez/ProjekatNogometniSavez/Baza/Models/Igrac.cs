@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ProjekatNogometniSavez.Baza.Models
 {
-    class Igrac
+    public class Igrac
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int IgracId { get; set; }//primary key u bazi

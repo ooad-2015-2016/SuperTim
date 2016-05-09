@@ -16,6 +16,14 @@ namespace ProjekatNogometniSavez.Baza.Models
         public DbSet<Trener> Treneri { get; set; }
         public DbSet<Delegat> Delegati { get; set; }
         public DbSet<Igrac> Igraci { get; set; }
+        public DbSet<Utakmica> Utakmice { get; set; }
+        public DbSet<Tim> Timovi { get; set; }
+        public DbSet<Liga> Liga { get; set; }
+        public DbSet<RasporedUtakmice> RasporedUtakmica { get; set; }
+
+
+
+
 
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
