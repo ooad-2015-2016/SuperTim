@@ -10,7 +10,7 @@ using Windows.Storage;
 
 namespace ProjekatNogometniSavez.Baza.Models
 {
-    class TrenerDbContext:DbContext
+    class BazaDbContext:DbContext
     {
         
         public DbSet<Trener> Treneri { get; set; }

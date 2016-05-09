@@ -104,11 +104,11 @@
     <Compile Include="Baza\Models\RasporedUtakmice.cs" />
     <Compile Include="Baza\Models\Tim.cs" />
     <Compile Include="Baza\Models\Utakmica.cs" />
-    <Compile Include="Migrations\20160509103555_InitialMigration.cs" />
-    <Compile Include="Migrations\20160509103555_InitialMigration.designer.cs">
-      <DependentUpon>20160509103555_InitialMigration.cs</DependentUpon>
+    <Compile Include="Migrations\20160509134736_InitialMigration.cs" />
+    <Compile Include="Migrations\20160509134736_InitialMigration.designer.cs">
+      <DependentUpon>20160509134736_InitialMigration.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\TrenerDbContextModelSnapshot.cs" />
+    <Compile Include="Migrations\BazaDbContextModelSnapshot.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Baza\Models\DefaultPodaci.cs" />
     <Compile Include="Baza\Models\Trener.cs" />

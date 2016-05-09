@@ -18,7 +18,7 @@
       <RootProperty Name="Content" />
       <RootEvent Name="Loaded" />
     </RootType>
-    <RootType FullName="ProjekatNogometniSavez.TrenerBaza.Views.PictureConverter" />
+    <RootType FullName="ProjekatNogometniSavez.Baza.Views.PictureConverter" />
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="Background" />
       <RootProperty Name="ColumnDefinitions" />
@@ -83,6 +83,6 @@
       <RootProperty Name="Converter" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
-    <RootType FullName="ProjekatNogometniSavez.TrenerBaza.Views.TreneriListView" />
+    <RootType FullName="ProjekatNogometniSavez.Baza.Views.TreneriListView" />
   </Roots.RootTypes>
 </Roots>

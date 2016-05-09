@@ -25,7 +25,7 @@ namespace ProjekatNogometniSavez.Baza.Views
            
             private void Page_Loaded(object sender, RoutedEventArgs e)
             {
-                using (var db = new TrenerDbContext())
+                using (var db = new BazaDbContext())
                 {
                     TreneriIS.ItemsSource = db.Treneri.OrderBy(c => c.Ime).ToList();
                 }
@@ -33,7 +33,7 @@ namespace ProjekatNogometniSavez.Baza.Views
             //Event dodavanja novog trenera
             private void buttonDodaj_Click(object sender, RoutedEventArgs e)
             {
-                using (var db = new TrenerDbContext())
+                using (var db = new BazaDbContext())
                 {
                     var contact = new Trener
                     {
@@ -88,7 +88,7 @@ namespace ProjekatNogometniSavez.Baza.Views
                 }
                 if (dep == null)
                     return;
-                using (var db = new TrenerDbContext())
+                using (var db = new BazaDbContext())
                 {
                     db.Treneri.Remove((Trener)TreneriIS.ItemFromContainer(dep));
                     //Nije jos obrisano dok nije Save

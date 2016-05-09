@@ -6,8 +6,8 @@ using ProjekatNogometniSavez.Baza.Models;
 
 namespace ProjekatNogometniSavezMigrations
 {
-    [ContextType(typeof(TrenerDbContext))]
-    partial class TrenerDbContextModelSnapshot : ModelSnapshot
+    [ContextType(typeof(BazaDbContext))]
+    partial class BazaDbContextModelSnapshot : ModelSnapshot
     {
         public override void BuildModel(ModelBuilder builder)
         {

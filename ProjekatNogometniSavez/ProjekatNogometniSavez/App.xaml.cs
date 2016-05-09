@@ -37,7 +37,7 @@ namespace ProjekatNogometniSavez
                 Microsoft.ApplicationInsights.WindowsCollectors.Session);
             this.InitializeComponent();
             this.Suspending += OnSuspending;
-            using (var db = new TrenerDbContext())
+            using (var db = new BazaDbContext())
             {
                 db.Database.ApplyMigrations();
                 DefaultPodaci.Initialize(db);

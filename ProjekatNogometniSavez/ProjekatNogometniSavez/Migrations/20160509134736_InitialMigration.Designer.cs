@@ -6,12 +6,12 @@ using ProjekatNogometniSavez.Baza.Models;
 
 namespace ProjekatNogometniSavezMigrations
 {
-    [ContextType(typeof(TrenerDbContext))]
+    [ContextType(typeof(BazaDbContext))]
     partial class InitialMigration
     {
         public override string Id
         {
-            get { return "20160509103555_InitialMigration"; }
+            get { return "20160509134736_InitialMigration"; }
         }
 
         public override string ProductVersion

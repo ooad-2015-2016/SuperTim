@@ -26,7 +26,7 @@ namespace ProjekatNogometniSavezMigrations
                 columns: table => new
                 {
                     TrenerId = table.Column(type: "INTEGER", nullable: false),
-                       // .Annotation("Sqlite:Autoincrement", true),
+                        //.Annotation("Sqlite:Autoincrement", true),
                     Datum = table.Column(type: "INTEGER", nullable: false),
                     Ime = table.Column(type: "TEXT", nullable: true),
                     Prezime = table.Column(type: "TEXT", nullable: true),
@@ -42,7 +42,7 @@ namespace ProjekatNogometniSavezMigrations
                 columns: table => new
                 {
                     LigaId = table.Column(type: "INTEGER", nullable: false),
-                       // .Annotation("Sqlite:Autoincrement", true),
+                        //.Annotation("Sqlite:Autoincrement", true),
                     NazivLige = table.Column(type: "TEXT", nullable: true),
                     UtakmiceRasporedRasporedUtakmiceId = table.Column(type: "INTEGER", nullable: true),
                     fourSqaureId = table.Column(type: "TEXT", nullable: true)
@@ -83,7 +83,7 @@ namespace ProjekatNogometniSavezMigrations
                 columns: table => new
                 {
                     TimId = table.Column(type: "INTEGER", nullable: false),
-                       // .Annotation("Sqlite:Autoincrement", true),
+                        //.Annotation("Sqlite:Autoincrement", true),
                     Bodovi = table.Column(type: "INTEGER", nullable: false),
                     CrveniKartoni = table.Column(type: "INTEGER", nullable: false),
                     GoloviTima = table.Column(type: "INTEGER", nullable: false),
@@ -110,7 +110,7 @@ namespace ProjekatNogometniSavezMigrations
                 columns: table => new
                 {
                     UtakmicaId = table.Column(type: "INTEGER", nullable: false),
-                       // .Annotation("Sqlite:Autoincrement", true),
+                        //.Annotation("Sqlite:Autoincrement", true),
                     BrojGolovaTim1 = table.Column(type: "INTEGER", nullable: false),
                     BrojGolovaTim2 = table.Column(type: "INTEGER", nullable: false),
                     DatumiVrijeme = table.Column(type: "TEXT", nullable: false),
@@ -141,7 +141,7 @@ namespace ProjekatNogometniSavezMigrations
                 columns: table => new
                 {
                     IgracId = table.Column(type: "INTEGER", nullable: false),
-                       // .Annotation("Sqlite:Autoincrement", true),
+                        //.Annotation("Sqlite:Autoincrement", true),
                     Ime = table.Column(type: "TEXT", nullable: true),
                     Prezime = table.Column(type: "TEXT", nullable: true),
                     TimTimId = table.Column(type: "INTEGER", nullable: true),
