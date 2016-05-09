@@ -6,67 +6,109 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-                        
+                         Width="1109.333" Height="780.333"
  >
 
     <Page.Resources>
         <local:PictureConverter x:Key="thePictureConverter"/>
     </Page.Resources>
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="0,0,0.333,-0.333">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="100" />
-            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="347" />
+            <ColumnDefinition />
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="40" />
-            <RowDefinition Height="40" />
-            <RowDefinition Height="40" />
-            <RowDefinition Height="65" />
+            <RowDefinition Height="41" />
+            <RowDefinition Height="48" />
+            <RowDefinition Height="47" />
+            <RowDefinition Height="49" />
             <RowDefinition Height="46" />
             <RowDefinition />
         </Grid.RowDefinitions>
         <!--Polja za unos novog trenera-->
-        <TextBlock x:ConnectionId='2' x:Name="ImeTextBlock" HorizontalAlignment="Left" Margin="10,10,0,0"
-TextWrapping="Wrap" Text="Ime" VerticalAlignment="Top" Height="20" Width="25"/>
-        <TextBox x:ConnectionId='3' x:Name="ImeInput" Grid.Column="1" HorizontalAlignment="Stretch"
-Margin="3,3,3,3" TextWrapping="Wrap" Text="" />
-        <TextBlock x:ConnectionId='4' x:Name="PrezimeTextBlock" Grid.Row="1" HorizontalAlignment="Left"
-Margin="10,10,0,0" TextWrapping="Wrap" Text="Prezime" VerticalAlignment="Top" Height="20" Width="53"/>
-        <TextBox x:ConnectionId='5' x:Name="PrezimeInput" Grid.Row="1" Grid.Column="1"
-HorizontalAlignment="Stretch" Margin="3,3,3,3" TextWrapping="Wrap" Text=""/>
-        <TextBlock x:ConnectionId='6' x:Name="DatumTextBlock" Grid.Row="2" HorizontalAlignment="Left"
-Margin="10,10,0,0" TextWrapping="Wrap" Text="Datum" VerticalAlignment="Top" Height="20" Width="45"/>
-        <TextBox x:ConnectionId='7' x:Name="DatumInput" Grid.Row="2" Grid.Column="1"
-HorizontalAlignment="Stretch" Margin="3,3,3,3" TextWrapping="Wrap" Text=""/>
-        <TextBlock x:ConnectionId='8' x:Name="SlikaLabel" Grid.Row="3" HorizontalAlignment="Left" Margin="18,10,0,0"
-TextWrapping="Wrap" Text="Slika" VerticalAlignment="Top" Height="20" Width="45"/>
-        <Button x:ConnectionId='9' x:Name="buttonUpload" Content="Upload" Grid.Column="1"
-HorizontalAlignment="Stretch" Margin="0,10,10,0" Grid.Row="3" VerticalAlignment="Top"
-                           Height="32"/>
-        <Button x:ConnectionId='10' x:Name="buttonDodaj" Content="Dodaj" HorizontalAlignment="Stretch"
-Margin="5,5,5,0" Grid.Row="4" VerticalAlignment="Top"                           Height="32"/>
         <!--Lista za prikaz svih trenera-->
-        <ListView x:ConnectionId='11' Name="TreneriIS" Grid.ColumnSpan="2" Grid.Row="5">
+        <TextBlock x:ConnectionId='2' x:Name="txtBlockunostimova" HorizontalAlignment="Left" Margin="27,14,0,0" TextWrapping="Wrap" Text="Unos timova" VerticalAlignment="Top" RenderTransformOrigin="0.538,0.517" Grid.Column="1" Height="20" Width="132"/>
+        <TextBlock x:ConnectionId='3' x:Name="ImeTextBlock_Copy" HorizontalAlignment="Left" Margin="24,18,0,0"
+        	TextWrapping="Wrap" Text="Naziv" VerticalAlignment="Top" Height="20" Width="48" Grid.Row="1" Grid.Column="1"/>
+        <TextBox x:ConnectionId='4' x:Name="NazivInput_Tim" HorizontalAlignment="Stretch"
+        	Margin="96,6,440,10" TextWrapping="Wrap" Text="" Grid.Row="1" Grid.Column="1" />
+        <TextBlock x:ConnectionId='5' x:Name="PrezimeTextBlock_Copy" Grid.Row="2" HorizontalAlignment="Left"
+        	Margin="27,20,0,0" TextWrapping="Wrap" Text="Trener" VerticalAlignment="Top" Height="20" Width="53" Grid.Column="1"/>
+        <TextBox x:ConnectionId='6' x:Name="TrenerInput_tim" Grid.Row="2"
+        	HorizontalAlignment="Stretch" Margin="96,6,440,7" TextWrapping="Wrap" Text="" Grid.Column="1"/>
+        <TextBlock x:ConnectionId='7' x:Name="DatumTextBlock_Copy" Grid.Row="3" HorizontalAlignment="Left"
+        	Margin="24,7,0,0" TextWrapping="Wrap" Text="Datum osnivanja" VerticalAlignment="Top" Height="56" Width="62" Grid.Column="1" Grid.RowSpan="2"/>
+        <TextBox x:ConnectionId='8' x:Name="DatumInput_tim" Grid.Row="3"
+        	HorizontalAlignment="Stretch" Margin="96,7,440,10" TextWrapping="Wrap" Text="" Grid.Column="1"/>
+        <TextBlock x:ConnectionId='9' x:Name="SlikaLabel_Copy" Grid.Row="4" HorizontalAlignment="Left" Margin="27,6,0,0"
+        	TextWrapping="Wrap" Text="Slika" VerticalAlignment="Top" Height="20" Width="45" Grid.Column="1"/>
+        <ListView x:ConnectionId='10' x:Name="TimoviIS" Grid.Row="5" Margin="27,0,440,81.667" Grid.Column="1">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <StackPanel Orientation="Vertical" >
-                       
+
                         <TextBlock Text="{Binding Ime}" Margin="5,0,0,0"/>
                         <TextBlock Text="{Binding Prezime}" Margin="5,0,0,0" />
                         <TextBlock Text="{Binding Datum}" Margin="5,0,0,0" />
-                        
 
-                        
-                        <Button x:ConnectionId='12' Content="Delete"                             Margin="5,5,5,5"/>
+
+
+                        <Button x:ConnectionId='28' Content="Delete"                           Margin="5,5,5,5"/>
                         <!--Image poziva konverter PictureConverter koji konvertuje byte[] u
 BitmapImage-->
                         <Image x:Name="image" HorizontalAlignment="Left" Height="500"
-Margin="5,0,0,0" VerticalAlignment="Top" Source="{Binding Slika, Converter={StaticResource
-thePictureConverter}}"/>
+        					Margin="5,0,0,0" VerticalAlignment="Top" Source="{Binding Slika, Converter={StaticResource thePictureConverter}}"/>
                     </StackPanel>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+        <TextBlock x:ConnectionId='11' x:Name="ImeTextBlock" HorizontalAlignment="Left" Margin="359,18,0,0"
+        	TextWrapping="Wrap" Text="Ime" VerticalAlignment="Top" Height="20" Width="25" Grid.Row="1" Grid.Column="1"/>
+        <TextBox x:ConnectionId='12' x:Name="ImeInput" HorizontalAlignment="Stretch"
+        	Margin="428,6,108,10" TextWrapping="Wrap" Text="" Grid.Row="1" Grid.Column="1" />
+        <TextBlock x:ConnectionId='13' x:Name="PrezimeTextBlock" Grid.Row="2" HorizontalAlignment="Left"
+        	Margin="359,13,0,0" TextWrapping="Wrap" Text="Prezime" VerticalAlignment="Top" Height="20" Width="53" Grid.Column="1"/>
+        <TextBox x:ConnectionId='14' x:Name="PrezimeInput" Grid.Row="2"
+        	HorizontalAlignment="Stretch" Margin="428,6,108,7" TextWrapping="Wrap" Text="" Grid.Column="1"/>
+        <TextBlock x:ConnectionId='15' x:Name="DatumTextBlock" Grid.Row="3" HorizontalAlignment="Left"
+        	Margin="359,9,0,0" TextWrapping="Wrap" Text="Datum" VerticalAlignment="Top" Height="20" Width="45" Grid.Column="1"/>
+        <TextBox x:ConnectionId='16' x:Name="DatumInput" Grid.Row="3"
+        	HorizontalAlignment="Stretch" Margin="428,7,108,10" TextWrapping="Wrap" Text="" Grid.Column="1"/>
+        <TextBlock x:ConnectionId='17' x:Name="SlikaLabel" Grid.Row="4" HorizontalAlignment="Left" Margin="359,6,0,0"
+        	TextWrapping="Wrap" Text="Slika" VerticalAlignment="Top" Height="20" Width="45" Grid.Column="1"/>
+        <Button x:ConnectionId='18' x:Name="buttonUpload" Content="Upload"
+        	HorizontalAlignment="Stretch" Margin="428,0,245,0" Grid.Row="4" VerticalAlignment="Top"
+        	                           Height="32" Grid.Column="1"/>
+        <Button x:ConnectionId='19' x:Name="buttonDodaj" Content="Dodaj" HorizontalAlignment="Stretch"
+        	Margin="547,0,115,0" Grid.Row="4" VerticalAlignment="Top"                           Height="32" Grid.Column="1"/>
+        <ListView x:ConnectionId='20' x:Name="DelegatiIS" Grid.Row="5" Margin="359,0,115,81.667" Grid.Column="1">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Vertical" >
+
+                        <TextBlock Text="{Binding Ime}" Margin="5,0,0,0"/>
+                        <TextBlock Text="{Binding Prezime}" Margin="5,0,0,0" />
+                        <TextBlock Text="{Binding Datum}" Margin="5,0,0,0" />
+
+
+
+                        <Button x:ConnectionId='27' Content="Delete"                             Margin="5,5,5,5"/>
+                        <!--Image poziva konverter PictureConverter koji konvertuje byte[] u
+BitmapImage-->
+                        <Image x:Name="image" HorizontalAlignment="Left" Height="500"
+        					Margin="5,0,0,0" VerticalAlignment="Top" Source="{Binding Slika, Converter={StaticResource thePictureConverter}}"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <TextBlock x:ConnectionId='21' x:Name="txtBlockunosdelegata1" HorizontalAlignment="Left" Margin="359,14,0,0" TextWrapping="Wrap" Text="Unos delegata" VerticalAlignment="Top" RenderTransformOrigin="0.538,0.517" Grid.Column="1" Height="21" Width="118"/>
+        <TextBlock x:ConnectionId='22' x:Name="txtBlockunosdelegata_Copy" HorizontalAlignment="Left" Margin="36,14,0,0" TextWrapping="Wrap" Text="Informacije o Ligi" VerticalAlignment="Top" RenderTransformOrigin="0.538,0.517" Height="20" Width="114"/>
+        <TextBlock x:ConnectionId='23' x:Name="ImeTextBlock_Copy1" HorizontalAlignment="Left" Margin="36,18,0,0"
+        	TextWrapping="Wrap" Text="Naziv" VerticalAlignment="Top" Height="20" Width="67" Grid.Row="1"/>
+        <TextBox x:ConnectionId='24' x:Name="NazivInputLiga" HorizontalAlignment="Stretch"
+        	Margin="108,6,10,10" TextWrapping="Wrap" Text="" Grid.Row="1" />
+        <Button x:ConnectionId='25' x:Name="buttonDodaj_tim" Content="Dodaj" Grid.Column="1" HorizontalAlignment="Left" Margin="237,0,0,0" Grid.Row="4" VerticalAlignment="Top" Width="85"                              />
+        <Button x:ConnectionId='26' x:Name="UploadSlika_tim" Content="Upload" Grid.Column="1" HorizontalAlignment="Left" Margin="128,0,0,14" Grid.Row="4" VerticalAlignment="Bottom" Width="72" Height="32"                              />
     </Grid>
 </Page>
 

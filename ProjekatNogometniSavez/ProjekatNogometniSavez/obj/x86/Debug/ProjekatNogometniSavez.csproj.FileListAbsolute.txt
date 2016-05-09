@@ -670,7 +670,6 @@ C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometn
 C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\qualifiers.txt.intermediate
 C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\ProjectArchitectures.txt
-C:\Users\selsebil\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\ProjekatNogometniSavez.csprojResolveAssemblyReference.cache
 C:\Users\selsebil\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\App.g.i.cs
 C:\Users\selsebil\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\App.g.cs
 C:\Users\selsebil\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\Baza\Views\TreneriListView.g.i.cs
@@ -914,3 +913,4 @@ C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometn
 C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\MainPage.xaml
 C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\Login.xbf
 C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\MainPage.xbf
+C:\Users\selsebil\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\ProjekatNogometniSavez.csprojResolveAssemblyReference.cache

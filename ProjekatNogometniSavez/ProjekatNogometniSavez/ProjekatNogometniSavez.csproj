@@ -117,9 +117,9 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\20160509134736_InitialMigration.cs" />
-    <Compile Include="Migrations\20160509134736_InitialMigration.designer.cs">
-      <DependentUpon>20160509134736_InitialMigration.cs</DependentUpon>
+    <Compile Include="Migrations\20160509172231_InitialMigration.cs" />
+    <Compile Include="Migrations\20160509172231_InitialMigration.designer.cs">
+      <DependentUpon>20160509172231_InitialMigration.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\BazaDbContextModelSnapshot.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

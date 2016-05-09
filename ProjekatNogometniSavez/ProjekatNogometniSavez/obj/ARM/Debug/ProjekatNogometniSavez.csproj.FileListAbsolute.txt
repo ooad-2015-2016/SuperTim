@@ -893,3 +893,13 @@ C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometn
 C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\ARM\Debug\qualifiers.txt.intermediate
 C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\ARM\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\ARM\Debug\ProjectArchitectures.txt
+C:\Users\selsebil\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\bin\ARM\Debug\Login.xbf
+C:\Users\selsebil\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\bin\ARM\Debug\MainPage.xbf
+C:\Users\selsebil\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\ARM\Debug\Login.g.i.cs
+C:\Users\selsebil\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\ARM\Debug\Login.g.cs
+C:\Users\selsebil\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\ARM\Debug\MainPage.g.i.cs
+C:\Users\selsebil\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\ARM\Debug\MainPage.g.cs
+C:\Users\selsebil\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\ARM\Debug\Login.xaml
+C:\Users\selsebil\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\ARM\Debug\MainPage.xaml
+C:\Users\selsebil\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\ARM\Debug\Login.xbf
+C:\Users\selsebil\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\ARM\Debug\MainPage.xbf

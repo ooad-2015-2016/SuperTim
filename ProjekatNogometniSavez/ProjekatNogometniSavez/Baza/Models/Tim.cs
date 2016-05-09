@@ -14,6 +14,7 @@ namespace ProjekatNogometniSavez.Baza.Models
         public int TimId { get; set; }
         public string fourSqaureId { get; set; }
         public String NazivTima { get; set; }
+        public int DatumOsnivanja { get; set; }
         public List<Igrac> SpisakIgraca { get; set; }
         public String TrenerTima { get; set; }
         public int GoloviTima { get; set; }
@@ -23,5 +24,6 @@ namespace ProjekatNogometniSavez.Baza.Models
         public int Nerjeseno { get; set; }
         public int ZutiKartoni { get; set; }
         public int CrveniKartoni { get; set; }
+        public byte[] Slika { get; set; }
     }
 }
