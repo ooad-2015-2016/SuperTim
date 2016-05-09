@@ -16,8 +16,8 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using Microsoft.Data.Entity;
-using ProjekatNogometniSavez.TrenerBaza.Models;
-using ProjekatNogometniSavez.TrenerBaza.Views;
+using ProjekatNogometniSavez.Baza.Models;
+using ProjekatNogometniSavez.Baza.Views;
 
 namespace ProjekatNogometniSavez
 {

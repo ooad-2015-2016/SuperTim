@@ -8,15 +8,17 @@ using System.Text;
 using System.Threading.Tasks;
 using Windows.Storage;
 
-namespace ProjekatNogometniSavez.TrenerBaza.Models
+namespace ProjekatNogometniSavez.Baza.Models
 {
     class TrenerDbContext:DbContext
     {
         
         public DbSet<Trener> Treneri { get; set; }
+        public DbSet<Delegat> Delegati { get; set; }
+        public DbSet<Igrac> Igraci { get; set; }
 
-       
- protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             string databaseFilePath = "ProjekatNogometniSavez.db";
             try

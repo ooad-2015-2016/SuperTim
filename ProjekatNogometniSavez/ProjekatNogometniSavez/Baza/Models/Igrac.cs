@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjekatNogometniSavez.IgracBaza.Models
+namespace ProjekatNogometniSavez.Baza.Models
 {
     class Igrac
     {

@@ -1,4 +1,4 @@
-﻿using ProjekatNogometniSavez.TrenerBaza.Models;
+﻿using ProjekatNogometniSavez.Baza.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +11,7 @@ using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Media;
 
-namespace ProjekatNogometniSavez.TrenerBaza.Views
+namespace ProjekatNogometniSavez.Baza.Views
 {
    
         public sealed partial class TreneriListView : Page

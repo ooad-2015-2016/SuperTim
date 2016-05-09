@@ -5,13 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjekatNogometniSavez.TrenerBaza.Models
+namespace ProjekatNogometniSavez.Baza.Models
 {
-    class Delegat
+    class Trener
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int DelegatId { get; set; }
-        public string fourSqaureId { get; set; }
+        public int TrenerId { get; set; }//primary key u bazi
+        public string fourSqaureId { get; set; }//trebati ce za sihronizaciju kasnije
         public string Ime { get; set; }
         public string Prezime { get; set; }
         public int Datum { get; set; }

@@ -7,7 +7,7 @@ using Windows.Storage.Streams;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Media.Imaging;
 
-namespace ProjekatNogometniSavez.TrenerBaza.Views
+namespace ProjekatNogometniSavez.Baza.Views
 {
     class PictureConverter : IValueConverter
     {

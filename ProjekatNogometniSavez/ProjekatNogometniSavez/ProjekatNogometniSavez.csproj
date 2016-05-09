@@ -98,25 +98,18 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="IgracBaza\Models\DefaultPodaci.cs" />
-    <Compile Include="IgracBaza\Models\Igrac.cs" />
-    <Compile Include="IgracBaza\Models\IgracDbContext.cs" />
-    <Compile Include="Migrations\20160424140552_InitialMigration.cs" />
-    <Compile Include="Migrations\20160424140552_InitialMigration.designer.cs">
-      <DependentUpon>20160424140552_InitialMigration.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\20160424205809_InitialMigration.cs" />
-    <Compile Include="Migrations\20160424205809_InitialMigration.designer.cs">
-      <DependentUpon>20160424205809_InitialMigration.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\IgracDbContextModelSnapshot.cs" />
-    <Compile Include="Migrations\TrenerDbContextModelSnapshot.cs" />
+    <Compile Include="Baza\Models\Delegat.cs" />
+    <Compile Include="Baza\Models\Igrac.cs" />
+    <Compile Include="Baza\Models\Liga.cs" />
+    <Compile Include="Baza\Models\RasporedUtakmice.cs" />
+    <Compile Include="Baza\Models\Tim.cs" />
+    <Compile Include="Baza\Models\Utakmica.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TrenerBaza\Models\DefaultPodaci.cs" />
-    <Compile Include="TrenerBaza\Models\Trener.cs" />
-    <Compile Include="TrenerBaza\Models\TrenerDbContext.cs" />
-    <Compile Include="TrenerBaza\Views\PictureConverter.cs" />
-    <Compile Include="TrenerBaza\Views\TreneriListView.xaml.cs">
+    <Compile Include="Baza\Models\DefaultPodaci.cs" />
+    <Compile Include="Baza\Models\Trener.cs" />
+    <Compile Include="Baza\Models\BazaDbContext.cs" />
+    <Compile Include="Baza\Views\PictureConverter.cs" />
+    <Compile Include="Baza\Views\TreneriListView.xaml.cs">
       <DependentUpon>TreneriListView.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
@@ -141,11 +134,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="IgracBaza\Views\IgraciListView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="TrenerBaza\Views\TreneriListView.xaml">
+    <Page Include="Baza\Views\TreneriListView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
