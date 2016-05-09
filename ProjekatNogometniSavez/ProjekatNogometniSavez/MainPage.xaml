@@ -2,7 +2,9 @@
     x:Class="ProjekatNogometniSavez.MainPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-     xmlns:local="using:ProjekatNogometniSavez"    xmlns:viewmodels="using:ProjekatNogometniSavez.Baza.ViewModels"
+     xmlns:local="using:ProjekatNogometniSavez"
+    xmlns:viewmodels="using:ProjekatNogometniSavez.Baza.ViewModels"
+
    
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
@@ -61,4 +63,4 @@ FontSize="36" Click="PrikaziMeni_Click" />
             </SplitView.Content>
         </SplitView>
     </Grid>
-</Page>
+</Page>

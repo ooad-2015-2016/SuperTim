@@ -27,15 +27,15 @@ namespace ProjekatNogometniSavez.Baza.Views
             {
                 using (var db = new BazaDbContext())
                 {
-                    TreneriIS.ItemsSource = db.Treneri.OrderBy(c => c.Ime).ToList();
+                    DelegatiIS.ItemsSource = db.Delegati.OrderBy(c => c.Ime).ToList();
                 }
             }
-            //Event dodavanja novog trenera
+            //Event dodavanja novog delegata
             private void buttonDodaj_Click(object sender, RoutedEventArgs e)
             {
                 using (var db = new BazaDbContext())
                 {
-                    var contact = new Trener
+                    var contact = new Delegat
                     {
                         Ime = ImeInput.Text,
                         Prezime = PrezimeInput.Text,
@@ -44,7 +44,7 @@ namespace ProjekatNogometniSavez.Baza.Views
                         
                         Slika = uploadSlika
                     };
-                    db.Treneri.Add(contact);
+                    db.Delegati.Add(contact);
                     
                 db.SaveChanges();
                     //reset polja za unos
@@ -54,7 +54,7 @@ namespace ProjekatNogometniSavez.Baza.Views
                     DatumInput.Text = string.Empty;
                     
                     //refresh liste trenera
-                    TreneriIS.ItemsSource = db.Treneri.OrderBy(c => c.Ime).ToList();
+                    DelegatiIS.ItemsSource = db.Treneri.OrderBy(c => c.Ime).ToList();
                 }
             }
             //event za upload slike
@@ -90,11 +90,11 @@ namespace ProjekatNogometniSavez.Baza.Views
                     return;
                 using (var db = new BazaDbContext())
                 {
-                    db.Treneri.Remove((Trener)TreneriIS.ItemFromContainer(dep));
+                    db.Delegati.Remove((Delegat)DelegatiIS.ItemFromContainer(dep));
                     //Nije jos obrisano dok nije Save
                     db.SaveChanges();
                     //Refresh liste restorana
-                    TreneriIS.ItemsSource = db.Treneri.OrderBy(c => c.Ime).ToList();
+                    DelegatiIS.ItemsSource = db.Delegati.OrderBy(c => c.Ime).ToList();
                 }
             }
            

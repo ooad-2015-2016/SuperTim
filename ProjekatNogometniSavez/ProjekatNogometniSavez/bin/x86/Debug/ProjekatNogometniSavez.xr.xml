@@ -14,6 +14,8 @@
       <RootProperty Name="RequestedTheme" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
       <RootProperty Name="Resources" />
       <RootProperty Name="Content" />
       <RootEvent Name="Loaded" />
@@ -21,18 +23,18 @@
     <RootType FullName="ProjekatNogometniSavez.Baza.Views.PictureConverter" />
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="Background" />
+      <RootProperty Name="Margin" />
       <RootProperty Name="ColumnDefinitions" />
       <RootProperty Name="RowDefinitions" />
       <RootProperty Name="Children" />
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />
-      <RootProperty Name="Margin" />
       <RootMethod Name="GetColumn" />
       <RootMethod Name="SetColumn" />
       <RootMethod Name="GetRow" />
       <RootMethod Name="SetRow" />
-      <RootMethod Name="GetColumnSpan" />
-      <RootMethod Name="SetColumnSpan" />
+      <RootMethod Name="GetRowSpan" />
+      <RootMethod Name="SetRowSpan" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
@@ -47,6 +49,7 @@
       <RootProperty Name="TextWrapping" />
       <RootProperty Name="Text" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="RenderTransformOrigin" />
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
       <RootProperty Name="FontSize" />
@@ -78,7 +81,7 @@
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
-      <RootProperty Name="Name" />
+      <RootProperty Name="Margin" />
       <RootProperty Name="ItemTemplate" />
       <RootProperty Name="ItemContainerTransitions" />
       <RootProperty Name="IsItemClickEnabled" />

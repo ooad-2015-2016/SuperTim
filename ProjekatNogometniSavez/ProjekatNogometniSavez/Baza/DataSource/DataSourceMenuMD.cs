@@ -74,28 +74,28 @@ Naziv="Administrator",
  new MeniStavka()
  {
  MeniStavkaId=1,
-Naziv="Primjer forme 1",
+Naziv="Liga",
 Kod="F1",
 Podstranica = typeof(TreneriListView)
  },
  new MeniStavka()
  {
  MeniStavkaId=2,
-Naziv="Primjer forme 2",
+Naziv="Delegat",
  Kod="F2",
  Podstranica = typeof(TreneriListView)
  },
  new MeniStavka()
  {
  MeniStavkaId=3,
-Naziv="Primjer forme 3",
+Naziv="Trener",
 Kod="F3",
  Podstranica = typeof(TreneriListView)
  },
  new MeniStavka()
  {
  MeniStavkaId=4,
-Naziv="Primjer forme 4",
+Naziv="Raspored utakmica",
 Kod="F4",
 Podstranica = typeof(TreneriListView)
  },
@@ -131,5 +131,6 @@ Podstranica = typeof(TreneriListView)
         }
         #endregion
     }
-}
+}
+
 

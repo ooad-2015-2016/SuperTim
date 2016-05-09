@@ -904,3 +904,13 @@ C:\Users\selsebil\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez
 C:\Users\selsebil\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\MainPage.xbf
 C:\Users\selsebil\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\bin\x86\Debug\Login.xbf
 C:\Users\selsebil\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\bin\x86\Debug\MainPage.xbf
+C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\bin\x86\Debug\Login.xbf
+C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\bin\x86\Debug\MainPage.xbf
+C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\Login.g.i.cs
+C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\Login.g.cs
+C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\MainPage.g.i.cs
+C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\MainPage.g.cs
+C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\Login.xaml
+C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\MainPage.xaml
+C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\Login.xbf
+C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\MainPage.xbf
