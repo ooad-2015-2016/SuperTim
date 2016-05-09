@@ -132,19 +132,23 @@ namespace ProjekatNogometniSavez.ProjekatNogometniSavez_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[5];
+            _typeNameTable = new string[7];
             _typeNameTable[0] = "ProjekatNogometniSavez.Baza.Views.PictureConverter";
             _typeNameTable[1] = "Object";
             _typeNameTable[2] = "ProjekatNogometniSavez.Baza.Views.TreneriListView";
             _typeNameTable[3] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[4] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[5] = "ProjekatNogometniSavez.Login";
+            _typeNameTable[6] = "ProjekatNogometniSavez.MainPage";
 
-            _typeTable = new global::System.Type[5];
+            _typeTable = new global::System.Type[7];
             _typeTable[0] = typeof(global::ProjekatNogometniSavez.Baza.Views.PictureConverter);
             _typeTable[1] = typeof(global::System.Object);
             _typeTable[2] = typeof(global::ProjekatNogometniSavez.Baza.Views.TreneriListView);
             _typeTable[3] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[4] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[5] = typeof(global::ProjekatNogometniSavez.Login);
+            _typeTable[6] = typeof(global::ProjekatNogometniSavez.MainPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -181,6 +185,8 @@ namespace ProjekatNogometniSavez.ProjekatNogometniSavez_XamlTypeInfo
 
         private object Activate_0_PictureConverter() { return new global::ProjekatNogometniSavez.Baza.Views.PictureConverter(); }
         private object Activate_2_TreneriListView() { return new global::ProjekatNogometniSavez.Baza.Views.TreneriListView(); }
+        private object Activate_5_Login() { return new global::ProjekatNogometniSavez.Login(); }
+        private object Activate_6_MainPage() { return new global::ProjekatNogometniSavez.MainPage(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -216,6 +222,20 @@ namespace ProjekatNogometniSavez.ProjekatNogometniSavez_XamlTypeInfo
 
             case 4:   //  Windows.UI.Xaml.Controls.UserControl
                 xamlType = new global::ProjekatNogometniSavez.ProjekatNogometniSavez_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 5:   //  ProjekatNogometniSavez.Login
+                userType = new global::ProjekatNogometniSavez.ProjekatNogometniSavez_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_5_Login;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 6:   //  ProjekatNogometniSavez.MainPage
+                userType = new global::ProjekatNogometniSavez.ProjekatNogometniSavez_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_6_MainPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
                 break;
             }
             return xamlType;

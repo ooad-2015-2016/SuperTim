@@ -98,12 +98,25 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Baza\DataSource\DataSourceMenuMD.cs" />
     <Compile Include="Baza\Models\Delegat.cs" />
     <Compile Include="Baza\Models\Igrac.cs" />
+    <Compile Include="Baza\Models\Korisnik.cs" />
     <Compile Include="Baza\Models\Liga.cs" />
     <Compile Include="Baza\Models\RasporedUtakmice.cs" />
     <Compile Include="Baza\Models\Tim.cs" />
+    <Compile Include="Baza\Models\Uloga.cs" />
+    <Compile Include="Baza\Models\UlogaKorisnik.cs" />
+    <Compile Include="Baza\Models\UlogaMeniStavka.cs" />
     <Compile Include="Baza\Models\Utakmica.cs" />
+    <Compile Include="Baza\Models\MeniStavka.cs" />
+    <Compile Include="Baza\ViewModels\MeniStavkeViewModel.cs" />
+    <Compile Include="Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\20160509134736_InitialMigration.cs" />
     <Compile Include="Migrations\20160509134736_InitialMigration.designer.cs">
       <DependentUpon>20160509134736_InitialMigration.cs</DependentUpon>
@@ -140,6 +153,14 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="Baza\Views\TreneriListView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Login.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
