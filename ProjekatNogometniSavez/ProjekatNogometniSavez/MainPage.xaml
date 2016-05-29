@@ -34,13 +34,13 @@ BaseTextBlockStyle}" />
         </Grid.RowDefinitions>
         <RelativePanel>
             <Button Name="PrikaziMeni" FontFamily="Segoe MDL2 Assets" Content="&#xE700;"
-FontSize="36" Click="PrikaziMeni_Click" />
+FontSize="36" Click="PrikaziMeni_Click" Margin="0,0,-1,0" Width="56" />
         </RelativePanel>
         <SplitView Name="MojSplitView"
  Grid.Row="1"
  DisplayMode="CompactOverlay"
  OpenPaneLength="200"
- CompactPaneLength="56"
+ CompactPaneLength="200"
  HorizontalAlignment="Left">
             <SplitView.Pane>
                 <ListView
@@ -49,7 +49,7 @@ FontSize="36" Click="PrikaziMeni_Click" />
  ItemContainerTransitions="{x:Null}"
  ItemTemplate="{StaticResource MeniStavkeItemTemplate}"
  IsItemClickEnabled="True"
- SelectionChanged="MeniStavkeListView_SelectionChanged">
+ SelectionChanged="MeniStavkeListView_SelectionChanged" Margin="0,0,-157,0">
                     <ListView.ItemContainerStyle>
                         <Style TargetType="ListViewItem">
                             <Setter Property="HorizontalContentAlignment" Value="Stretch" />

@@ -8,8 +8,9 @@
     <RootPropertyPathName Name="Datum" />
     <RootPropertyPathName Name="Prezime" />
     <RootPropertyPathName Name="Ime" />
-    <RootPropertyPathName Name="Trener" />
-    <RootPropertyPathName Name="Naziv" />
+    <RootPropertyPathName Name="DatumOsnivanja" />
+    <RootPropertyPathName Name="TrenerTima" />
+    <RootPropertyPathName Name="NazivTima" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application">

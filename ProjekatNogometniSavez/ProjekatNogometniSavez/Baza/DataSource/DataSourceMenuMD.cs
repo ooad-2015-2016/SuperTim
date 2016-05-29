@@ -17,14 +17,26 @@ namespace ProjekatNogometniSavez.Baza.DataSource
  new Korisnik()
  {
  KorisnikId=1,
- KorisnickoIme="administrator",
- Sifra="1234",
+ KorisnickoIme="admin",
+ Sifra="admin",
+ },
+ new Korisnik()
+ {
+ KorisnikId=3,
+ KorisnickoIme="trener",
+ Sifra="trener"
  },
  new Korisnik()
  {
  KorisnikId=2,
- KorisnickoIme="osnovni",
- Sifra="1234"
+ KorisnickoIme="delegat",
+ Sifra="delegat"
+ },
+ new Korisnik()
+ {
+ KorisnikId=4,
+ KorisnickoIme="",
+ Sifra=""
  }
  };
         public static IList<Korisnik> DajSveKorisnike()
@@ -56,7 +68,17 @@ Naziv="Administrator",
  new Uloga()
  {
  UlogaId=2,
- Naziv="Registrovani korisnik",
+ Naziv="Delegat",
+ },
+ new Uloga()
+ {
+ UlogaId=3,
+ Naziv="Trener",
+ },
+ new Uloga()
+ {
+ UlogaId=4,
+ Naziv="Gost",
  }
  };
         public static IList<Uloga> DajSveUloge()
@@ -114,20 +136,31 @@ Podstranica = typeof(TreneriListView)
         {
             Korisnik k1 = DajKorisnikaPoId(1);
             Korisnik k2 = DajKorisnikaPoId(2);
+            Korisnik k3 = DajKorisnikaPoId(3);
+            Korisnik k4 = DajKorisnikaPoId(4);
             Uloga u1 = DajUloguPoId(1);
             Uloga u2 = DajUloguPoId(2);
+            Uloga u3 = DajUloguPoId(3);
+            Uloga u4 = DajUloguPoId(4);
             MeniStavka ms1 = DajMeniStavkuPoId(1);
             MeniStavka ms2 = DajMeniStavkuPoId(2);
             MeniStavka ms3 = DajMeniStavkuPoId(3);
             MeniStavka ms4 = DajMeniStavkuPoId(4);
-            //Dodavanje stavki ulozi i uloge korisniku 1
+            //admin
             u1.DodajMeniStavkuUlozi(ms1);
             u1.DodajMeniStavkuUlozi(ms2);
             u1.DodajMeniStavkuUlozi(ms3);
+            u1.DodajMeniStavkuUlozi(ms4);
             k1.DodajUloguKorisnika(u1);
-            //Dodavanje stavki ulozi i uloge korisniku 2
-            u2.DodajMeniStavkuUlozi(ms4);
+            // delegat
+            u2.DodajMeniStavkuUlozi(ms2);
             k2.DodajUloguKorisnika(u2);
+            //trener
+            u3.DodajMeniStavkuUlozi(ms3);
+            k3.DodajUloguKorisnika(u3);
+            //gost
+            u4.DodajMeniStavkuUlozi(ms4);
+            k4.DodajUloguKorisnika(u4);
         }
         #endregion
     }

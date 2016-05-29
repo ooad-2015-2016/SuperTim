@@ -50,5 +50,17 @@ namespace ProjekatNogometniSavez
                 await dialog.ShowAsync();
             }
         }
+
+        private void buttonGost_Click(object sender, RoutedEventArgs e)
+        {
+            var korisnickoIme = txtUsername.Text;
+            var sifra = txtPassword.Password;
+            var korisnik = DataSourceMenuMD.ProvjeraKorisnika(korisnickoIme, sifra);
+            if (korisnik != null)
+            {
+                this.Frame.Navigate(typeof(MainPage), korisnik);
+            }
+            
+        }
     }
 }

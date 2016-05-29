@@ -22,13 +22,13 @@
     <AppXManifest Include="C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-05-09T17:47:27.739</Modified>
+      <Modified>2016-05-29T11:16:19.690</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\bin\x86\Debug\ProjekatNogometniSavez.exe">
       <PackagePath>entrypoint\ProjekatNogometniSavez.exe</PackagePath>
-      <Modified>2016-05-09T17:47:26.811</Modified>
+      <Modified>2016-05-29T11:16:19.350</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Zerina Dragnic\.nuget\packages\EntityFramework.Core\7.0.0-beta6\lib\dotnet\EntityFramework.Core.dll">
       <PackagePath>EntityFramework.Core.dll</PackagePath>
@@ -582,7 +582,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\bin\x86\Debug\ProjekatNogometniSavez.xr.xml">
       <PackagePath>ProjekatNogometniSavez.xr.xml</PackagePath>
-      <Modified>2016-05-09T17:43:08.338</Modified>
+      <Modified>2016-05-29T09:58:26.701</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -590,11 +590,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-05-09T17:47:27.264</Modified>
+      <Modified>2016-05-29T10:47:36.740</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\bin\x86\Debug\Core\ProjekatNogometniSavez.exe">
       <PackagePath>ProjekatNogometniSavez.exe</PackagePath>
-      <Modified>2016-05-09T17:47:27.733</Modified>
+      <Modified>2016-05-29T11:16:19.685</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

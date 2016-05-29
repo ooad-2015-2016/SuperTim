@@ -25,14 +25,14 @@
             <RowDefinition Height="46" />
             <RowDefinition />
         </Grid.RowDefinitions>
-        <!--Polja za unos novog delegata-->
-        <!--Lista za prikaz svih delegata-->
+        <!--Polja za unos novog tima-->
+        <!--Lista za prikaz svih tima-->
         <TextBlock x:Name="txtBlockunostimova" HorizontalAlignment="Left" Margin="27,14,0,0" TextWrapping="Wrap" Text="Unos timova" VerticalAlignment="Top" RenderTransformOrigin="0.538,0.517" Grid.Column="1" Height="20" Width="132"/>
         <TextBlock x:Name="ImeTextBlock_Copy" HorizontalAlignment="Left" Margin="24,18,0,0"
         	TextWrapping="Wrap" Text="Naziv" VerticalAlignment="Top" Height="20" Width="48" Grid.Row="1" Grid.Column="1"/>
         <TextBox x:Name="NazivInput_Tim" HorizontalAlignment="Stretch"
         	Margin="96,6,440,10" TextWrapping="Wrap" Text="" Grid.Row="1" Grid.Column="1" />
-        <TextBlock x:Name="PrezimeTextBlock_Copy" Grid.Row="2" HorizontalAlignment="Left"
+        <TextBlock x:Name="TrenerTextBlock" Grid.Row="2" HorizontalAlignment="Left"
         	Margin="27,20,0,0" TextWrapping="Wrap" Text="Trener" VerticalAlignment="Top" Height="20" Width="53" Grid.Column="1"/>
         <TextBox x:Name="TrenerInput_tim" Grid.Row="2"
         	HorizontalAlignment="Stretch" Margin="96,6,440,7" TextWrapping="Wrap" Text="" Grid.Column="1"/>
@@ -47,10 +47,10 @@
                 <DataTemplate>
                     <StackPanel Orientation="Vertical" >
 
-                        <TextBlock Text="{Binding Naziv}" Margin="5,0,0,0"/>
-                        <TextBlock Text="{Binding Trener}" Margin="5,0,0,0" />
-                        <TextBlock Text="{Binding Datum}" Margin="5,0,0,0" />
-                       
+                        <TextBlock Text="{Binding NazivTima}" Margin="5,0,0,0"/>
+                        <TextBlock Text="{Binding TrenerTima}" Margin="5,0,0,0" />
+                        <TextBlock Text="{Binding DatumOsnivanja}" Margin="5,0,0,0" />
+
 
 
 
@@ -110,5 +110,6 @@ BitmapImage-->
         	Margin="108,6,10,10" TextWrapping="Wrap" Text="" Grid.Row="1" />
         <Button x:Name="buttonDodaj_tim" Content="Dodaj" Grid.Column="1" HorizontalAlignment="Left" Margin="237,0,0,0" Grid.Row="4" VerticalAlignment="Top" Width="85" Click="buttonDodaj_tim_Click"/>
         <Button x:Name="UploadSlika_tim" Content="Upload" Grid.Column="1" HorizontalAlignment="Left" Margin="128,0,0,14" Grid.Row="4" VerticalAlignment="Bottom" Width="72" Height="32" Click="UploadSlika_tim_Click"/>
+        <Button x:Name="UnesiLiguDugme" Content="Unesi ligu" HorizontalAlignment="Left" Margin="108,11,0,0" Grid.Row="2" VerticalAlignment="Top" Width="86" Click="UnesiLiguDugme_Click"/>
     </Grid>
 </Page>

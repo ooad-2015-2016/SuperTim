@@ -92,6 +92,7 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="Baza\NogometniSavezBaza.db" />
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
@@ -111,6 +112,7 @@
     <Compile Include="Baza\Models\Utakmica.cs" />
     <Compile Include="Baza\Models\MeniStavka.cs" />
     <Compile Include="Baza\ViewModels\MeniStavkeViewModel.cs" />
+    <Compile Include="Baza\Models\DefaultPodaci.cs" />
     <Compile Include="Login.xaml.cs">
       <DependentUpon>Login.xaml</DependentUpon>
     </Compile>
@@ -123,7 +125,6 @@
     </Compile>
     <Compile Include="Migrations\BazaDbContextModelSnapshot.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Baza\Models\DefaultPodaci.cs" />
     <Compile Include="Baza\Models\Trener.cs" />
     <Compile Include="Baza\Models\BazaDbContext.cs" />
     <Compile Include="Baza\Views\PictureConverter.cs" />

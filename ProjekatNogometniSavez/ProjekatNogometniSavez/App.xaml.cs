@@ -37,11 +37,12 @@ namespace ProjekatNogometniSavez
                 Microsoft.ApplicationInsights.WindowsCollectors.Session);
             this.InitializeComponent();
             this.Suspending += OnSuspending;
-            using (var db = new BazaDbContext())
+           /* using (var db = new BazaDbContext())
             {
                 db.Database.ApplyMigrations();
-                DefaultPodaci.Initialize(db);
-            }
+
+                //DefaultPodaci.Initialize(db);
+            } */
         }
 
         /// <summary>

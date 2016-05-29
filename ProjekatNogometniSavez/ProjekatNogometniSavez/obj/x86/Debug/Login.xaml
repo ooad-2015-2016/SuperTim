@@ -18,7 +18,7 @@ Width="150" />
             <PasswordBox x:ConnectionId='2' Name="txtPassword" PlaceholderText="Šifra" Margin="10,10,10,0"
 Width="150" />
             <Button x:ConnectionId='3' x:Name="btnLogin" Margin="30,10,0,0"                        Content="Prijava" />
-            <Button x:ConnectionId='4' x:Name="buttonGost" Content="Gost" HorizontalAlignment="Left" Height="30" Margin="30,10,0,0" Width="63" RenderTransformOrigin="0.597,-1.039"/>
+            <Button x:ConnectionId='4' x:Name="buttonGost" Content="Gost" HorizontalAlignment="Left" Height="30" Margin="30,10,0,0" Width="63" RenderTransformOrigin="0.597,-1.039"                         />
         </StackPanel>
     </Grid>
 </Page>

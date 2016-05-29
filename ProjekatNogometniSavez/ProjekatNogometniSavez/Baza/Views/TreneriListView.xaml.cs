@@ -16,8 +16,10 @@ namespace ProjekatNogometniSavez.Baza.Views
    
         public sealed partial class TreneriListView : Page
         {
-            //Potrebno je privremeno negdje staviti sliku koja se uploaduje
-            private byte[] uploadSlika;
+        //Potrebno je privremeno negdje staviti sliku koja se uploaduje
+        public Liga NasaLiga = new Liga();
+        public int broj=100;
+        private byte[] uploadSlika;
         private byte[] uploadSlika_tim;
         public TreneriListView()
             {
@@ -29,7 +31,8 @@ namespace ProjekatNogometniSavez.Baza.Views
                 using (var db = new BazaDbContext())
                 {
                     DelegatiIS.ItemsSource = db.Delegati.OrderBy(c => c.Ime).ToList();
-                }
+                     TimoviIS.ItemsSource = db.Timovi.OrderBy(c => c.NazivTima).ToList();
+            }
             }
             //Event dodavanja novog delegata
             private void buttonDodaj_Click(object sender, RoutedEventArgs e)
@@ -78,7 +81,7 @@ namespace ProjekatNogometniSavez.Baza.Views
                     buttonUpload.Content = "Picked photo: " + file.Name;
                 }
             }
-            //Event za brisanje trenera
+            //Event za brisanje delegata
             private void Button_Click_Delete(object sender, RoutedEventArgs e)
             {
                 //Dobavljanje objekta iz liste koji je kori[ten da se popuni red u listview
@@ -118,10 +121,9 @@ namespace ProjekatNogometniSavez.Baza.Views
                 //reset polja za unos
                 NazivInput_Tim.Text = string.Empty;
                 TrenerInput_tim.Text = string.Empty;
-
                 DatumInput_tim.Text = string.Empty;
 
-                //refresh liste trenera
+                //refresh liste timova
                 TimoviIS.ItemsSource = db.Timovi.OrderBy(c => c.NazivTima).ToList();
             }
 
@@ -163,8 +165,29 @@ namespace ProjekatNogometniSavez.Baza.Views
                 db.Timovi.Remove((Tim)DelegatiIS.ItemFromContainer(dep));
                 //Nije jos obrisano dok nije Save
                 db.SaveChanges();
-                //Refresh liste restorana
+                //Refresh liste timova
                 TimoviIS.ItemsSource = db.Timovi.OrderBy(c => c.NazivTima).ToList();
+            }
+        }
+
+        private void UnesiLiguDugme_Click(object sender, RoutedEventArgs e)
+        {
+            using (var db = new BazaDbContext())
+            {
+                NasaLiga = new Liga();
+                NasaLiga.NazivLige = NazivInputLiga.Text;
+                NasaLiga.LigaId = broj++;
+                NasaLiga.Timovi = new List<Tim>();
+                NasaLiga.UtakmiceRaspored = new RasporedUtakmice();
+                NasaLiga.Delegati = new List<Delegat>();
+                NasaLiga.fourSqaureId = "12";
+                db.Liga.Add(NasaLiga);
+                db.SaveChanges();
+                //reset polja za unos
+                NazivInputLiga.Text = string.Empty;
+                
+
+                
             }
         }
     }

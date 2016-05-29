@@ -45,6 +45,7 @@ namespace ProjekatNogometniSavezMigrations
                         //.Annotation("Sqlite:Autoincrement", true),
                     NazivLige = table.Column(type: "TEXT", nullable: true),
                     UtakmiceRasporedRasporedUtakmiceId = table.Column(type: "INTEGER", nullable: true),
+                    
                     fourSqaureId = table.Column(type: "TEXT", nullable: true)
                 },
                 constraints: table =>
