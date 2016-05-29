@@ -105,21 +105,21 @@ Podstranica = typeof(TreneriListView)
  MeniStavkaId=2,
 Naziv="Delegat",
  Kod="F2",
- Podstranica = typeof(TreneriListView)
+ Podstranica = typeof(DelegatForma)
  },
  new MeniStavka()
  {
  MeniStavkaId=3,
 Naziv="Trener",
 Kod="F3",
- Podstranica = typeof(TreneriListView)
+ Podstranica = typeof(TrenerForma)
  },
  new MeniStavka()
  {
  MeniStavkaId=4,
-Naziv="Raspored utakmica",
+Naziv="Gost",
 Kod="F4",
-Podstranica = typeof(TreneriListView)
+Podstranica = typeof(Gostt)
  },
  };
         public static IList<MeniStavka> DajSveMeniStavke()

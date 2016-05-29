@@ -58,7 +58,7 @@ namespace ProjekatNogometniSavez.Baza.Views
                     DatumInput.Text = string.Empty;
                     
                     //refresh liste trenera
-                    DelegatiIS.ItemsSource = db.Treneri.OrderBy(c => c.Ime).ToList();
+                    DelegatiIS.ItemsSource = db.Delegati.OrderBy(c => c.Ime).ToList();
                 }
             }
             //event za upload slike
@@ -93,8 +93,9 @@ namespace ProjekatNogometniSavez.Baza.Views
                 if (dep == null)
                     return;
                 using (var db = new BazaDbContext())
-                {
-                    db.Delegati.Remove((Delegat)DelegatiIS.ItemFromContainer(dep));
+            {
+
+                db.Delegati.Remove((Delegat)DelegatiIS.ItemFromContainer(dep));
                     //Nije jos obrisano dok nije Save
                     db.SaveChanges();
                     //Refresh liste restorana

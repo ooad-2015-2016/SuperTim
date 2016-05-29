@@ -1,4 +1,7 @@
 App.xbf
+Baza\Views\DelegatForma.xbf
+Baza\Views\Gostt.xbf
+Baza\Views\Login.xbf
+Baza\Views\MainPage.xbf
+Baza\Views\TrenerForma.xbf
 Baza\Views\TreneriListView.xbf
-Login.xbf
-MainPage.xbf

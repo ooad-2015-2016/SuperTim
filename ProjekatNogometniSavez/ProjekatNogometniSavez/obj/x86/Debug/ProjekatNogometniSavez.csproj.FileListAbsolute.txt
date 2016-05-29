@@ -902,15 +902,30 @@ C:\Users\selsebil\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez
 C:\Users\selsebil\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\MainPage.xbf
 C:\Users\selsebil\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\bin\x86\Debug\Login.xbf
 C:\Users\selsebil\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\bin\x86\Debug\MainPage.xbf
-C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\bin\x86\Debug\Login.xbf
-C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\bin\x86\Debug\MainPage.xbf
-C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\Login.g.i.cs
-C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\Login.g.cs
-C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\MainPage.g.i.cs
-C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\MainPage.g.cs
-C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\Login.xaml
-C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\MainPage.xaml
-C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\Login.xbf
-C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\MainPage.xbf
 C:\Users\selsebil\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\ProjekatNogometniSavez.csprojResolveAssemblyReference.cache
 C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\ProjekatNogometniSavez.csprojResolveAssemblyReference.cache
+C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\bin\x86\Debug\Baza\Views\Login.xbf
+C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\bin\x86\Debug\Baza\Views\MainPage.xbf
+C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\Baza\Views\Login.g.i.cs
+C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\Baza\Views\Login.g.cs
+C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\Baza\Views\MainPage.g.i.cs
+C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\Baza\Views\MainPage.g.cs
+C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\Baza\Views\Login.xaml
+C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\Baza\Views\MainPage.xaml
+C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\Baza\Views\Login.xbf
+C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\Baza\Views\MainPage.xbf
+C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\bin\x86\Debug\Baza\Views\Gostt.xbf
+C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\Baza\Views\Gostt.g.i.cs
+C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\Baza\Views\Gostt.g.cs
+C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\Baza\Views\Gostt.xaml
+C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\Baza\Views\Gostt.xbf
+C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\Baza\Views\DelegatForma.g.i.cs
+C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\Baza\Views\DelegatForma.g.cs
+C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\Baza\Views\TrenerForma.g.i.cs
+C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\Baza\Views\TrenerForma.g.cs
+C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\Baza\Views\DelegatForma.xaml
+C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\Baza\Views\TrenerForma.xaml
+C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\Baza\Views\DelegatForma.xbf
+C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\Baza\Views\TrenerForma.xbf
+C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\bin\x86\Debug\Baza\Views\DelegatForma.xbf
+C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\bin\x86\Debug\Baza\Views\TrenerForma.xbf

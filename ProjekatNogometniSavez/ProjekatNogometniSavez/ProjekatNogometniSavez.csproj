@@ -113,11 +113,20 @@
     <Compile Include="Baza\Models\MeniStavka.cs" />
     <Compile Include="Baza\ViewModels\MeniStavkeViewModel.cs" />
     <Compile Include="Baza\Models\DefaultPodaci.cs" />
-    <Compile Include="Login.xaml.cs">
+    <Compile Include="Baza\Views\DelegatForma.xaml.cs">
+      <DependentUpon>DelegatForma.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Baza\Views\Gostt.xaml.cs">
+      <DependentUpon>Gostt.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Baza\Views\Login.xaml.cs">
       <DependentUpon>Login.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MainPage.xaml.cs">
+    <Compile Include="Baza\Views\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Baza\Views\TrenerForma.xaml.cs">
+      <DependentUpon>TrenerForma.xaml</DependentUpon>
     </Compile>
     <Compile Include="Migrations\20160509173227_InitialMigration.cs" />
     <Compile Include="Migrations\20160509173227_InitialMigration.designer.cs">
@@ -153,15 +162,27 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Baza\Views\DelegatForma.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Baza\Views\Gostt.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Baza\Views\TrenerForma.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Baza\Views\TreneriListView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Login.xaml">
+    <Page Include="Baza\Views\Login.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="MainPage.xaml">
+    <Page Include="Baza\Views\MainPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
