@@ -903,7 +903,6 @@ C:\Users\selsebil\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez
 C:\Users\selsebil\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\bin\x86\Debug\Login.xbf
 C:\Users\selsebil\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\bin\x86\Debug\MainPage.xbf
 C:\Users\selsebil\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\ProjekatNogometniSavez.csprojResolveAssemblyReference.cache
-C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\ProjekatNogometniSavez.csprojResolveAssemblyReference.cache
 C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\bin\x86\Debug\Baza\Views\Login.xbf
 C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\bin\x86\Debug\Baza\Views\MainPage.xbf
 C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\Baza\Views\Login.g.i.cs
@@ -929,3 +928,4 @@ C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometn
 C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\Baza\Views\TrenerForma.xbf
 C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\bin\x86\Debug\Baza\Views\DelegatForma.xbf
 C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\bin\x86\Debug\Baza\Views\TrenerForma.xbf
+C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\obj\x86\Debug\ProjekatNogometniSavez.csprojResolveAssemblyReference.cache

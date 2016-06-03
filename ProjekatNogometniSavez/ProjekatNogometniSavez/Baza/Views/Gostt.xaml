@@ -5,15 +5,18 @@
     xmlns:local="using:ProjekatNogometniSavez.Baza.Views"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:UI="using:Microsoft.Advertising.WinRT.UI"
+
     mc:Ignorable="d">
+    
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="87,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="104" Width="273" FontSize="30">
-        	<Run Text="Stranica za goste"/>
-        	<LineBreak/>
-        	<Run/>
-        </TextBlock>
-        <Button x:Name="button" Content="Igrica" HorizontalAlignment="Left" Margin="87,114,0,0" VerticalAlignment="Top" Height="78" Width="137" Click="button_Click"/>
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
 
+        <UI:AdControl ApplicationId="3f83fe91-d6be-434d-a0ae-7351c5a997f1"
+                      AdUnitId="10865270"
+                      HorizontalAlignment="Left"
+                      Height="250"
+                      VerticalAlignment="Top"
+                      Width="300"/>
     </Grid>
 </Page>
