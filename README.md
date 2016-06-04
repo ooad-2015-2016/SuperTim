@@ -93,7 +93,6 @@ Baza: SQLite baza (lokalna)
 Eksterni uredjaj: nije uradjeno
 
 Validacija: ispostovana kod logina
-
 https://github.com/ooad-2015-2016/SuperTim/blob/master/ProjekatNogometniSavez/ProjekatNogometniSavez/Baza/DataSource/DataSourceMenuMD.cs
 
 Eksterni servis: nije uradjeno
@@ -101,7 +100,6 @@ Eksterni servis: nije uradjeno
 Windows phone uredjaj: nije uradjeno
 
 Web servis: reklame
-
 https://github.com/ooad-2015-2016/SuperTim/blob/master/ProjekatNogometniSavez/ProjekatNogometniSavez/Baza/Views/Gostt.xaml
 
 
