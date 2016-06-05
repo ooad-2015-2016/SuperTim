@@ -22,13 +22,13 @@
     <AppXManifest Include="C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-06-03T21:40:35.369</Modified>
+      <Modified>2016-06-05T12:49:55.164</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\bin\x86\Debug\ProjekatNogometniSavez.exe">
       <PackagePath>entrypoint\ProjekatNogometniSavez.exe</PackagePath>
-      <Modified>2016-06-03T21:40:34.228</Modified>
+      <Modified>2016-06-05T12:49:52.120</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Zerina Dragnic\.nuget\packages\EntityFramework.Core\7.0.0-beta6\lib\dotnet\EntityFramework.Core.dll">
       <PackagePath>EntityFramework.Core.dll</PackagePath>
@@ -534,13 +534,13 @@
       <PackagePath>ApplicationInsights.config</PackagePath>
       <Modified>2016-05-09T13:25:30.459</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2016-05-09T13:25:30.628</Modified>
+    <AppxPackagedFile Include="C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\Igra\igrica.exe">
+      <PackagePath>Igra\igrica.exe</PackagePath>
+      <Modified>2016-06-04T18:27:34.760</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Zerina Dragnic\.nuget\packages\EntityFramework.Commands\7.0.0-beta6\lib\net45\EntityFramework.Commands.xml">
-      <PackagePath>EntityFramework.Commands.xml</PackagePath>
-      <Modified>2015-07-21T15:24:16.000</Modified>
+    <AppxPackagedFile Include="C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\Igra\slika.png">
+      <PackagePath>Igra\slika.png</PackagePath>
+      <Modified>2016-05-31T20:25:56.172</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -576,13 +576,21 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2016-05-09T13:25:30.507</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2016-05-09T13:25:30.628</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zerina Dragnic\.nuget\packages\EntityFramework.Commands\7.0.0-beta6\lib\net45\EntityFramework.Commands.xml">
+      <PackagePath>EntityFramework.Commands.xml</PackagePath>
+      <Modified>2015-07-21T15:24:16.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Zerina Dragnic\.nuget\packages\EntityFramework.Commands\7.0.0-beta6\lib\net45\EntityFramework.Commands.dll">
       <PackagePath>EntityFramework.Commands.dll</PackagePath>
       <Modified>2015-07-21T17:12:58.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\bin\x86\Debug\ProjekatNogometniSavez.xr.xml">
       <PackagePath>ProjekatNogometniSavez.xr.xml</PackagePath>
-      <Modified>2016-06-03T21:40:33.879</Modified>
+      <Modified>2016-06-04T18:33:51.308</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.10586.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -594,11 +602,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-06-03T21:40:34.865</Modified>
+      <Modified>2016-06-04T18:59:44.231</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Zerina Dragnic\Desktop\SuperTim\ProjekatNogometniSavez\ProjekatNogometniSavez\bin\x86\Debug\Core\ProjekatNogometniSavez.exe">
       <PackagePath>ProjekatNogometniSavez.exe</PackagePath>
-      <Modified>2016-06-03T21:40:35.360</Modified>
+      <Modified>2016-06-05T12:49:55.153</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

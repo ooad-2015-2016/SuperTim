@@ -25,7 +25,7 @@ namespace ProjekatNogometniSavez.Baza.Views
     {
         public Gostt()
         {
-            
+
 
             this.InitializeComponent();
         }
@@ -35,6 +35,22 @@ namespace ProjekatNogometniSavez.Baza.Views
 
 
 
+
+        }
+
+
+
+
+
+        public async void button_Click_1(object sender, RoutedEventArgs e)
+        {
+            string imageFile = @"Igra\igrica.exe";
+            var file = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFileAsync(imageFile);
+            if (file != null)
+            {
+                // Launch the retrieved file
+                var success = await Windows.System.Launcher.LaunchFileAsync(file);
+            }
 
         }
     }

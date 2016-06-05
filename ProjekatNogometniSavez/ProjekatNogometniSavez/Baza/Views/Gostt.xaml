@@ -18,5 +18,6 @@
                       Height="250"
                       VerticalAlignment="Top"
                       Width="300"/>
+        <Button x:Name="button" Content="Igrica" HorizontalAlignment="Left" Margin="76,255,0,0" VerticalAlignment="Top" Height="46" Width="101" Click="button_Click_1"/>
     </Grid>
 </Page>

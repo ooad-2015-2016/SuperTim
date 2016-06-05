@@ -45,7 +45,7 @@ namespace ProjekatNogometniSavez
            else
             
             {
-                var dialog = new MessageDialog("Pogrešno korisničko ime/šifra!", "Neuspješna prijava");
+                var dialog = new MessageDialog("Pogresnii login podaci!", "Neuspjesna prijava");
                
                 await dialog.ShowAsync();
             }
