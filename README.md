@@ -88,19 +88,23 @@ Servis omogucava korisniku da koristenjem usluga Google ads, ima priliku da se p
 
 
 
-Baza: SQLite baza (lokalna)
+1.Baza: SQLite baza (lokalna)
 
-Eksterni uredjaj: nije uradjeno
+2.Eksterni uredjaj: nije uradjeno
 
-Validacija: ispostovana kod logina
+3.Validacija: ispostovana kod logina
 https://github.com/ooad-2015-2016/SuperTim/blob/master/ProjekatNogometniSavez/ProjekatNogometniSavez/Baza/DataSource/DataSourceMenuMD.cs
 
-Eksterni servis: nije uradjeno
+4.Eksterni servis: nije uradjeno
 
-Windows phone uredjaj: nije uradjeno
+5.Windows phone uredjaj: nije uradjeno
 
-Web servis: reklame
+6.Web servis: reklame (AdControl) https://developer.microsoft.com/en-us/windows/monetize/ads
 https://github.com/ooad-2015-2016/SuperTim/blob/master/ProjekatNogometniSavez/ProjekatNogometniSavez/Baza/Views/Gostt.xaml
+
+7. igrica.exe u folderu igrica
+
+Video sa prikazom osnovnih funkcionalnosti ooad_supertim.mp4 :)
 
 
 
